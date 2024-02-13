@@ -20,7 +20,7 @@ connectDB();
 app.use(bodyparser.urlencoded({extended:true}))
 
 
-app.use('/', require('./server/router/userRoutes'));
+app.use('/', require('./server/router/routes'));
 
 
 app.listen (PORT, ()=>{
